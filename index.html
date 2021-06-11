@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <section class="first-section">
+        <div class="header">
+            <div class="human-win">
+                <h1>Win</h1>
+                <h2>0</h2>
+            </div>
+            <div class="computer-win">
+                <h1>Win</h1>
+                <h2>0</h2>
+            </div>
+        </div>
+        <div class="title-div">
+            <img src="./assets/ROCK PAPER SCISSOR title.png" alt="title">
+        </div>
+        <div class="home-img-btn">
+            <img class="rock rock1" src="./assets/rock R.png" alt="rock">
+                <button class="button">PLAY!!!</button>
+            <img class="rock rock2" src="./assets/rock L.png" alt="rock">
+        </div>
+    </section>
+    <section class="game-section">
+        <div class="game-title">
+            <div class="back">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                <h3 onClick="window.location.reload();">back</h3>
+            </div>
+            <img src="./assets/small title.png" alt="title">
+        </div>
+        <div class="win-score">
+            <div class="game-human-win">
+                <h1>Human</h1>
+                <h2 class="human-score">0</h2>
+            </div>
+            <div class="game-computer-win">
+                <h1>Computer</h1>
+                <h2 class="computer-score">0</h2>
+            </div>
+        </div>
+        <div class="img-tie">
+            <div class="right-img">
+                <div class="rock-r-div">
+                    <img class="rock-r hands" src="./assets/rock R.png" alt="rock">
+                </div>
+                <div class="paper-r-div">
+                    <img class="paper-r hands" src="./assets/paper R.png" alt="paper">
+                </div>
+                <div class="scissor-r-div">
+                    <img class="scissor-r hands" src="./assets/scissor R.png" alt="SCISSOR">
+                </div>
+            </div>
+            <div class="rounds-tie">
+                <div class="rounds">
+                    <h1 class="round">Round <span class="round round-value">1</span></h1>
+                </div>
+                <div class="game-tie">
+                    <h1>Tie</h1>
+                    <h2 class="tie-score" >0</h2>
+                </div>
+            </div>
+            <div class="left-img">
+                <div class="rock-l-div">
+                    <img class="rock-l hands" src="./assets/rock L.png" alt="rock">
+                </div>
+                <div class="paper-l-div">
+                    <img class="paper-l hands" src="./assets/paper L.png" alt="paper">
+                </div>
+                <div class="scissor-l-div">
+                    <img class="scissor-l hands" src="./assets/scissor L.png" alt="SCISSOR">
+                </div>
+            </div>
+        </div>
+        <div class="selection-btns">
+            <div class="btn btn1"><img class="small-rock" src="./assets/rock.png" alt="rock"></div>
+            <div class="btn btn2"><img src="./assets/paper.png" alt="paper"></div>
+            <div class="btn btn3"><img src="./assets/scissor.png" alt="scissor"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="links">
+            <ul class="links-ul">
+                <li class="links-ul-li"><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li class="links-ul-li"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li class="links-ul-li"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li class="links-ul-li"><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="https://use.fontawesome.com/0a38f42d0e.js"></script>
+</body>
+</html>
